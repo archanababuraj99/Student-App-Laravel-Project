@@ -5,7 +5,7 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Register</title>
+    <title>Faculty</title>
 </head>
 <body>
 <nav class="navbar navbar-expand-lg navbar-dark bg-primary">
@@ -25,20 +25,29 @@
 </nav>
     <div class="container">
     <div class="row">
-    <div class="col col-12 col-sm-2 col-md-2 col-lg-2 col-xl-2 col-xxl-2"></div>
+    <div class="col col-12 col-sm-2 col-md-2 col-lg-2 col-xl-2 col-xxl-2">
+    </div>
     <div class="col col-12 col-sm-7 col-md-7 col-lg-7 col-xl-7 col-xxl-7">
     <table class="table">
     <tr>
-    <h1>Register Here!!</h1>
-        <td>Name</td>
+    <h1>Faculty</h1>
+        <td>Faculty name</td>
         <td><input type="text" class="form-control"></td>
     </tr>
     <tr>
-        <td>Roll No</td>
+        <td>Department</td>
         <td><input type="text" class="form-control"></td>
     </tr>
     <tr>
-        <td>Admission No</td>
+        <td>Address</td>
+        <td><textarea name="txtaddress" id="" cols="20" rows="5" class="form-control"></textarea></td>
+    </tr>
+    <tr>
+        <td>Phone No</td>
+        <td><input type="text" class="form-control"></td>
+    </tr>
+    <tr>
+        <td>Educational Qualification</td>
         <td><input type="text" class="form-control"></td>
     </tr>
     <tr>
@@ -47,7 +56,7 @@
     </tr>
     <tr>
         <td></td>
-        <td><button class="btn btn-warning">Register</button></td>
+        <td><button class="btn btn-secondary">Submit</button></td>
     </tr>
     </table>
     </div>
